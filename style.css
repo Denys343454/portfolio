@@ -294,6 +294,7 @@ form .btn-enviar input{
 }
 
 
+<<<<<<< HEAD
 @media screen and (max-width:1020px){
     /* classes gerais */
         .flex {
@@ -360,6 +361,8 @@ form .btn-enviar input{
         position: relative;
     }
 }
+=======
+>>>>>>> 86a35d5ae3d45692b35065103dd417bc737954b8
 
 
 
