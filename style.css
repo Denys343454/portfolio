@@ -294,6 +294,72 @@ form .btn-enviar input{
 }
 
 
+@media screen and (max-width:1020px){
+    /* classes gerais */
+        .flex {
+            flex-direction: column;
+        }
+
+        .topo-do-site .flex{
+            flex-direction: column;
+        }
+    /* cabeçalho */
+    .menu-desktop, .btn-contato{
+        display: none;
+    }
+    /* topo do site */
+
+    section.topo-do-site .flex{
+        gap: 40px;
+    }
+    
+    section.topo-do-site{
+        padding: 20px 8%;
+    }
+
+    .topo-do-site h1{
+        font-size: 30px;
+    }
+
+    .topo-do-site .img-topo-site img{
+        width: 300px;
+    }
+
+    /* especialidades */
+    section.especialidades .flex{
+        gap: 25px;
+        padding: 8%;
+    }
+    /*  SOBRE */
+     h2.titulo {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    section.sobre{
+        padding: 50px 8%;
+    }
+
+    /* portifolio */
+
+    section.portfolio{
+        padding: 60px 8%;
+        box-shadow: 0 0 40px 10px rgba(255, 255, 255, 0.053);
+        
+    }
+
+    .img-port {
+        margin: 10px;
+        width: 100%;
+        height: 460px;
+        background-size: cover;
+        background-position: 100% 0%;
+         transition: 0.05s;/* Aplicando a transição apenas a background-position */
+        cursor: pointer;
+        border-radius: 40px;
+        position: relative;
+    }
+}
 
 
 
